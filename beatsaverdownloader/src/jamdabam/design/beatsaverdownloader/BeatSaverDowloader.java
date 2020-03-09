@@ -10,7 +10,7 @@ import jamdabam.design.beatsaverdownloader.service.SongServiceInt;
 public class BeatSaverDowloader {
 	public static void main(String[] args) throws IOException {
 		SongServiceInt songService = new SongServiceImpl();
-		List<Song> latestSongs = songService.getLatestSongs(100);
+		List<Song> latestSongs = songService.getLatestSongs(5);
 		songService.downloadSongs(latestSongs, "C:\\BSaberSongsTest");
 		System.out.println("fertig");
 	}

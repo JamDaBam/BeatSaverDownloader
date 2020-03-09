@@ -14,7 +14,6 @@ import com.google.gson.JsonPrimitive;
 
 import jamdabam.design.beatsaverdownloader.configuration.Constants;
 import jamdabam.design.beatsaverdownloader.entities.Song;
-import jamdabam.design.beatsaverdownloader.entities.SongDifficulty;
 
 public class BeatSaverDeserializer implements JsonDeserializer<Song> {
 
